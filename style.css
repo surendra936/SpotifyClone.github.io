@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&family=Varela+Round&display=swap');
+
+
+
+body{
+
+    background-color:yellowgreen;
+}
+
+*{
+margin: 0;
+padding: 0;
+
+}
+.upnav{
+    min-height: 3vh;
+    background-color:blue;
+
+}
+img{
+    border-radius: 80%;
+}
+nav{
+     font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+        background-color: black;
+        color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.Brand img{
+       width: 45px;
+       padding:0 8px;
+}
+.Brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+  min-height: 50vh;
+  background-color: rgb(32, 15, 15);
+  color: aliceblue;
+  font-family: 'Varela Round',sans-serif;
+  display: flex;
+  margin: 22px auto;
+  width: 50%;
+  border-radius: 10px;
+  padding: 25px;
+  background-image: url('images/bkk.jpg');
+}
+.bottom{
+    position:sticky;
+    height: 130px;
+    background-color:black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.icons{
+    margin: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressBar
+{  
+    width: 80vw;
+    cursor: pointer;
+
+   
+}
+.songItem img
+{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+.songItem
+{
+height: 35px;
+display: flex;
+background-color: whitesmoke;
+color: black;
+width: 80%;
+padding: 5px 0;
+margin: 10px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 30px;
+
+}
+.times
+{
+   margin: 1 23px;
+  
+}
+.times i
+{
+    cursor: pointer;
+}
+.container .songItem
+
+{
+    position: relative;
+    text-align: center;
+    bottom: 8px;
+    left: 0px;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+}
+.songlist h1{
+   
+    position: relative;
+    text-align: center;
+    bottom: 30px;
+    left: 20;
+  
+
+}
+.songInfo
+{
+  position: absolute;
+  left: 10vw;
+  font-family: 'Varela Round',sans-serif;
+}
+.songInfo img{
+   opacity: 0;
+   transition: opacity 1s ease-in;
+}
+
+nav a{
+    text-decoration:none;
+    color: white;
+    padding-left: 30px;
+}
+
